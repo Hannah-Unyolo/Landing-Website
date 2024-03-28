@@ -1,0 +1,272 @@
+#header{
+    text-align: center;
+    border: solid 2px;
+    background-color: green;
+    color: #ddd 
+}
+
+#rasi{
+  display: flex;
+  gap: 20%;
+  margin: 40px;
+  color: #ddd;
+}
+.topnav {
+  display: inline-flex;
+  gap: 30px;
+ color: black;
+ color: #ddd;
+ font-weight: bold;
+  
+  }
+  .content1{
+    background-image:url(Images/back1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  #elevate{
+    text-align: center;
+color: #ddd;
+  }
+ .content3{
+  display: flex;
+  gap: 10%;
+ } 
+ #india{
+  text-align: center;
+ }
+ .content4{
+  display: flex;
+  gap: 10%;
+ }
+ #content5{
+  max-width: 100%;
+  height: 60%;
+ }
+.content6{
+  border: solid;
+}
+#para{
+  text-align: center;
+}
+#buttons{
+  display: flex;
+  gap: 5%;
+  margin-left: 20%;
+}
+#but{
+  width: 10%;
+  border-radius: 12px;
+}
+#butt{
+  width: 100%;
+  height: 30%;
+  
+  border-radius: 12px;
+}
+.palete{
+  display: flex;
+  gap: 5px;
+  margin-left: 40%;
+}
+#can{
+  display: flex;
+  margin-left: 40%;
+}
+#pop{
+  font-size: xx-large;
+}
+#slant{
+  rotate: 20%;
+}
+
+ #footer2{
+  background-color: rgb(18, 17, 17);
+  color: aquamarine;
+  width: 100%
+  
+  }
+ .footer{
+  background-color:rgb(18, 17, 17);
+  color: aquamarine;
+  width: 100%;
+  display: flex;
+  gap: 5%;
+  padding-bottom: 0px;
+
+}
+
+  @media (max-width: 768px) and (min-width: 320px){
+
+  
+  #rasi{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .topnav {
+    display:flex;
+flex-wrap: wrap;
+    }
+    .content1{
+      background-image:url(Images/back1.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 40% 40%;
+    }
+    #elevate{
+      text-align: center;
+    }
+   .content3{
+    display: flex;
+    flex-wrap: wrap;
+   } 
+   #india{
+    text-align: center;
+   }
+   .content4{
+    display: flex;
+  flex-wrap: wrap;
+   }
+   #content5{
+    max-width: 40%;
+    height: 30%;
+   }
+  .content6{
+    border: solid;
+  }
+  #para{
+    text-align: center;
+  }
+  #buttons{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #but{
+    width: 10%;
+    border-radius: 12px;
+  }
+  #butt{
+    width: 100%;
+    height: 30%;
+    
+    border-radius: 12px;
+  }
+  .palete{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #can{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #pop{
+    font-size: xx-large;
+  }
+  #slant{
+    rotate: 20%;
+  }
+  
+   #footer2{
+
+    width: 40%;
+    
+    }
+   .footer{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  #slide{
+    width: 10%;
+  }
+  }
+
+  @media (max-width: 2096px) and (min-width: 768px){
+
+  
+    #rasi{
+      display: flex;
+      flex-wrap: wrap;
+  
+    }
+    .topnav {
+      display:flex;
+  flex-wrap: wrap;
+      }
+      .content1{
+        background-image:url(Images/back1.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 40% 40%;
+      }
+      #elevate{
+        text-align: center;
+      }
+     .content3{
+      display: flex;
+      flex-wrap: wrap;
+     } 
+     #india{
+      text-align: center;
+     }
+     .content4{
+      display: flex;
+    flex-wrap: wrap;
+     }
+     #content5{
+      max-width: 40%;
+      height: 30%;
+     }
+    .content6{
+      border: solid;
+    }
+    #para{
+      text-align: center;
+    }
+    #buttons{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #but{
+      width: 10%;
+      border-radius: 12px;
+    }
+    #butt{
+      width: 100%;
+      height: 30%;
+      
+      border-radius: 12px;
+    }
+    .palete{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #can{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #pop{
+      font-size: xx-large;
+    }
+    #slant{
+      rotate: 20%;
+    }
+    
+     #footer2{
+  
+      width: 40%;
+      
+      }
+     .footer{
+      width: 40%;
+      display: flex;
+      flex-wrap: wrap;
+    
+    }
+    #slide{
+      width: 10%;
+    }
+    }
